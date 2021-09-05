@@ -1,4 +1,4 @@
-### M、T、V
+﻿### M、T、V
 
 Django将数据交互的过程分为了3个层次：
 
@@ -8,10 +8,7 @@ Django将数据交互的过程分为了3个层次：
 
 所以到这儿我们也就能理解为什么这个设计模式叫MTV了吧，M-->Model、T-->Template、V-->View
 
-### 请求与响应过程
-
-![image-20210905135904625](/Users/jiangxin/Library/Application Support/typora-user-images/image-20210905135904625.png)
-
+### 请求与响应过程![\[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-Iq9CNC0O-1630844721597)(/Users/jiangxin/Library/Application Support/typora-user-images/image-202109051359046](https://img-blog.csdnimg.cn/8503ddb86e9b44fb895ee2d549a76783.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5Lq65rCU5bCP5aec,size_20,color_FFFFFF,t_70,g_se,x_16)
 1. 用户通过浏览器对服务器发起request请求，服务器接收请求后，通过View的业务逻辑层进行分析，会同时给Model层和Template层发送指令；
 
 2. Model层与数据库进行交互，将交互的结果返回给View层；
